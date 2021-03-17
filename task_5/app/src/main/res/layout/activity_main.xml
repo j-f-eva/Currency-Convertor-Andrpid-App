@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inputCurrencyID"
+            android:padding="5dp"
+            android:layout_marginRight="4dp"
+            android:textColor="#7A1C0B"
+            android:background="#F49EA8"
+            android:layout_width="160dp"
+            android:layout_height="56dp"
+            android:text="Input Currency"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/convertedCurrencyID"
+            android:padding="5dp"
+            android:textColor="#7A1C0B"
+            android:background="#4CBCEF"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Converted Currency"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="280dp"
+            android:background="#C11E12"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/input_spinner_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Spinner>
+
+            <EditText
+                android:id="@+id/input_editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="your currency"
+                android:inputType="numberDecimal"
+                android:textSize="20dp">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginRight="8dp"
+            android:background="#F8EC86"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/converted_spinner_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/resultTextView_ID"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#0C2EED"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/showConvertorID"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:background="#0C0100"
+        android:layout_gravity="center_horizontal"
+        android:text="SHOW CONVERTION"
+        android:textColor="#FDFAFA"
+        android:textSize="18dp"
+        android:textStyle="bold">
+    </Button>
+
+</LinearLayout>

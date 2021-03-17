@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">task_5</string>
+
+   <string-array name="input_Country_Name">
+       <item>Bangladeshi Taka </item>
+       <item>Kuwaiti Dinar </item>
+       <item>United States Dollar </item>
+       <item>Euro </item>
+       <item> Japanese Yen </item>
+   </string-array>
+
+    <string-array name="converted_Country_Name">
+        <item>Bangladeshi Taka </item>
+        <item>Kuwaiti Dinar </item>
+        <item>United States Dollar </item>
+        <item>Euro </item>
+        <item> Japanese Yen </item>
+    </string-array>
+
+
+</resources>
